@@ -1,0 +1,22 @@
+[
+    { "keys": ["end"], "command": "move_to", "args": { "to": "eol" } },
+    { "keys": ["home"], "command": "move_to", "args": { "to": "bol" } },
+
+    { "keys": ["super+shift+up"], "command": "swap_line_up" },
+    { "keys": ["super+shift+down"], "command": "swap_line_down" },
+
+    { "keys": ["super+l"],
+        "command": "show_overlay", "args": {"overlay": "goto", "text": ":", "show_files": false} },
+    { "keys": ["super+k"],
+        "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["super+shift+k"],
+        "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+    { "keys": ["super+down"], "command": "goto_definition" },
+    { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+    { "keys": ["super+left"], "command": "jump_back" },
+    { "keys": ["super+right"], "command": "jump_forward" },
+
+    { "keys": ["super+i"], "command": "js_format",
+        "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}] }
+]

@@ -1,0 +1,13 @@
+sublime-text-3/Cache
+sublime-text-3/Index
+sublime-text-3/Local
+QtProject/qtcreator
+*.db
+pulse
+nautilus
+gtk-3.0
+gtk-2.0
+dconf
+autostart
+gnome-control-center
+software-center

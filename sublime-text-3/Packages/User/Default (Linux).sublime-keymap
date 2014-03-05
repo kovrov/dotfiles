@@ -1,0 +1,18 @@
+[
+    { "keys": ["ctrl+g"], "command": "find_next" },
+    { "keys": ["shift+ctrl+g"], "command": "find_prev" },
+
+    { "keys": ["ctrl+k"],
+        "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+shift+k"],
+        "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+l"],
+        "command": "show_overlay", "args": {"overlay": "goto", "show_files": false, "text": ":"} },
+
+    { "keys": ["ctrl+shift+\\"], "command": "expand_selection", "args": {"to": "brackets"} },
+    { "keys": ["ctrl+\\"], "command": "move_to", "args": {"to": "brackets"} },
+
+    { "keys": ["ctrl+i"], "command": "js_format",
+      "context": [{ "key": "selector", "operator": "equal", "operand": "source.js,source.json"}]
+    }
+]

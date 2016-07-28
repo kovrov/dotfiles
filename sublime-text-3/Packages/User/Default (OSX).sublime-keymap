@@ -18,5 +18,11 @@
     { "keys": ["super+right"], "command": "jump_forward" },
 
     { "keys": ["super+i"], "command": "js_format",
-        "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}] }
+        "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}] },
+
+    { "keys": ["alt+down"], "command": "next_bookmark" },
+    { "keys": ["alt+up"], "command": "prev_bookmark" },
+    { "keys": ["super+d"], "command": "toggle_bookmark" },
+    { "keys": ["super+alt+d"], "command": "clear_bookmarks" },
+    { "keys": ["super+shift+d"], "command": "select_all_bookmarks" },
 ]

@@ -14,5 +14,11 @@
 
     { "keys": ["ctrl+i"], "command": "js_format",
       "context": [{ "key": "selector", "operator": "equal", "operand": "source.js,source.json"}]
-    }
+    },
+
+    { "keys": ["alt+down"],     "command": "next_bookmark" },
+    { "keys": ["alt+up"],       "command": "prev_bookmark" },
+    { "keys": ["ctrl+d"] ,      "command": "toggle_bookmark" },
+    { "keys": ["ctrl+alt+d"] ,  "command": "clear_bookmarks" },
+    { "keys": ["ctrl+shift+d"], "command": "select_all_bookmarks" },
 ]

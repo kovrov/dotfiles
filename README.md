@@ -12,3 +12,8 @@ dconf-editor
     xdg-user-dirs-update --set MUSIC_DIR ~/music
     xdg-user-dirs-update --set PICTURES_DIR ~/pictures
     xdg-user-dirs-update --set VIDEOS_DIR ~/videos
+
+steam
+
+    sudo chmod g+s /opt/steam
+    sudo setfacl -d -m group:games:rwx /opt/steam

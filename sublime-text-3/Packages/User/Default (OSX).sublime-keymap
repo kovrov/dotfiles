@@ -2,6 +2,9 @@
     { "keys": ["end"], "command": "move_to", "args": { "to": "eol" } },
     { "keys": ["home"], "command": "move_to", "args": { "to": "bol" } },
 
+    { "keys": ["super+\\"], "command": "move_to", "args": {"to": "brackets"} },
+    { "keys": ["super+shift+\\"], "command": "expand_selection", "args": {"to": "brackets"} },
+
     { "keys": ["super+shift+up"], "command": "swap_line_up" },
     { "keys": ["super+shift+down"], "command": "swap_line_down" },
 
@@ -17,12 +20,14 @@
     { "keys": ["super+left"], "command": "jump_back" },
     { "keys": ["super+right"], "command": "jump_forward" },
 
-    { "keys": ["super+i"], "command": "js_format",
-        "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}] },
-
     { "keys": ["alt+down"], "command": "next_bookmark" },
     { "keys": ["alt+up"], "command": "prev_bookmark" },
     { "keys": ["super+d"], "command": "toggle_bookmark" },
     { "keys": ["super+alt+d"], "command": "clear_bookmarks" },
     { "keys": ["super+shift+d"], "command": "select_all_bookmarks" },
+
+    { "keys": ["ctrl+right"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+    { "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },
+    { "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+    { "keys": ["ctrl+shift+left"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
 ]

@@ -1,6 +1,6 @@
 dconf-editor
 
-    com.canonical.Unity.Lenses locked-scopes ['calculator.scope', 'info-calculator.scope']
+    com.canonical.Unity.Lenses always-search ['applications.scope', 'info-calculator.scope']
 
 ~/.config/user-dirs.dirs
 

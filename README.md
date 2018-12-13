@@ -4,14 +4,14 @@ dconf-editor
 
 ~/.config/user-dirs.dirs
 
-    xdg-user-dirs-update --set DESKTOP_DIR ~/desktop
-    xdg-user-dirs-update --set DOWNLOAD_DIR ~/downloads
-    xdg-user-dirs-update --set TEMPLATES_DIR ~/templates
-    xdg-user-dirs-update --set PUBLICSHARE_DIR ~/public
-    xdg-user-dirs-update --set DOCUMENTS_DIR ~/projects
-    xdg-user-dirs-update --set MUSIC_DIR ~/music
-    xdg-user-dirs-update --set PICTURES_DIR ~/pictures
-    xdg-user-dirs-update --set VIDEOS_DIR ~/videos
+    xdg-user-dirs-update --set DESKTOP ~/desktop
+    xdg-user-dirs-update --set DOWNLOAD ~/downloads
+    xdg-user-dirs-update --set TEMPLATES ~/templates
+    xdg-user-dirs-update --set PUBLICSHARE ~/public
+    xdg-user-dirs-update --set DOCUMENTS ~/projects
+    xdg-user-dirs-update --set MUSIC ~/music
+    xdg-user-dirs-update --set PICTURES ~/pictures
+    xdg-user-dirs-update --set VIDEOS ~/videos
 
 steam
 

@@ -1,7 +1,16 @@
 {
-	"ignored_packages":
+	"color_scheme": "Packages/User/Mariana EXT.sublime-color-scheme",
+	"font_face": "Monoid",
+	"font_size": 9,
+	"indent_guide_options":
 	[
-		"Vintage"
+		"draw_active"
 	],
-	"trim_trailing_white_space_on_save": true
+	"rulers":
+	[
+		80,
+		128
+	],
+	"theme": "Adaptive.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
 }

@@ -21,4 +21,5 @@
     { "keys": ["ctrl+d"] ,      "command": "toggle_bookmark" },
     { "keys": ["ctrl+alt+d"] ,  "command": "clear_bookmarks" },
     { "keys": ["ctrl+shift+d"], "command": "select_all_bookmarks" },
+    { "keys": ["ctrl+alt+down"], "command": "duplicate_line" },
 ]
